@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-structure">
+      <header class="title">
+        <div class="title-child"></div>
+        <h1 class="data-diagnosis">Data Diagnosis</h1>
+      </header>
+      <main class="main-container">
+        <section class="info-container">
+          <b class="nama-balita">Nama balita:</b>
+          <div class="physical-details">
+            <div class="body-status">
+              <div class="body-status-icon"></div>
+              <div class="body-status-details">
+                <div class="age-info">
+                  <b class="usia">Usia:</b>
+                </div>
+                <div class="status-indicators">
+                  <div class="status-indicator-icon"></div>
+                  <div class="indicator-details">
+                    <div class="first-indicator">
+                      <div class="first-indicator-icon-wrapper">
+                        <div class="first-indicator-icon"></div>
+                      </div>
+                      <b class="tubuh-kurus">Tubuh kurus</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="more-indicators">
+                <div class="second-indicator">
+                  <div class="second-indicator-inner">
+                    <div class="second-indicator-icons-parent">
+                      <div class="second-indicator-icons"></div>
+                      <div class="second-indicator-icons1"></div>
+                      <div class="second-indicator-icons2"></div>
+                      <div class="second-indicator-icons3"></div>
+                      <div class="second-indicator-icons4"></div>
+                    </div>
+                  </div>
+                  <div class="third-indicator">
+                    <div class="lemas-wrapper">
+                      <b class="lemas">lemas</b>
+                    </div>
+                    <div class="fourth-indicator">
+                      <div class="fourth-details-parent">
+                        <div class="fourth-details">
+                          <b class="kurang-stamina">kurang stamina</b>
+                          <div class="fifth-details">
+                            <b class="wajah-pucat">Wajah Pucat</b>
+                          </div>
+                        </div>
+                        <div class="sixth-indicator">
+                          <b class="pemberian-gizi-kurang"
+                            >Pemberian Gizi kurang baik</b
+                          >
+                        </div>
+                      </div>
+                      <div class="additional-symptoms">
+                        <b class="lain-lain">Lain-Lain</b>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="action-container">
+              <div class="action-button">
+                <div class="button-details">
+                  <div class="button-details-child"></div>
+                  <img
+                    class="d53posyandu-1-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./14164d53posyandu 1@2x.png.png"
+                  />
+                </div>
+                <button class="button-label">
+                  <div class="button-label-child"></div>
+                  <b class="lihat-hasil-diagnosis">Lihat Hasil Diagnosis</b>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div class="navigation">
+        <div class="back-button">
+          <div class="back-button-icon" id="backButtonIcon"></div>
+          <div class="kembali">kembali</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var backButtonIcon = document.getElementById("backButtonIcon");
+      if (backButtonIcon) {
+        backButtonIcon.addEventListener("click", function (e) {
+          window.location.href = "page-structure.html";
+        });
+      }
+      </script>
+  </body>
+</html>

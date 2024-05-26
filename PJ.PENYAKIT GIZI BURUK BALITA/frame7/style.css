@@ -1,0 +1,102 @@
+.ellipse-div,
+.frame-child,
+.frame-child1,
+.frame-inner,
+.frame-item {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-lightsteelblue);
+}
+.ellipse-parent,
+.website-layout-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ellipse-parent {
+  justify-content: flex-start;
+  gap: 37px;
+}
+.website-layout-inner {
+  justify-content: flex-end;
+  padding: 0 0 9px;
+}
+.sangat-tidak,
+.tidak {
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.tidak {
+  min-width: 87px;
+}
+.sedikit,
+.terlihat,
+.tidak {
+  display: inline-block;
+}
+.sedikit {
+  position: relative;
+  letter-spacing: 0.04em;
+  min-width: 111px;
+}
+.terlihat {
+  min-width: 121px;
+}
+.sangat-terlihat,
+.terlihat {
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.visibility-scale,
+.website-layout {
+  display: flex;
+  justify-content: flex-start;
+}
+.visibility-scale {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-dm-sans);
+}
+.website-layout {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 52px 24px 41px;
+  box-sizing: border-box;
+  gap: 11px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-dm-sans: "DM Sans";
+  
+    /* font sizes */
+    --font-size-11xl: 30px;
+    --font-size-21xl: 40px;
+    --font-size-5xl: 24px;
+    --font-size-13xl: 32px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-lightsteelblue: #b1c5f8;
+  
+    /* Paddings */
+    --padding-xl: 20px;
+  }
+  
